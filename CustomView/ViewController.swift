@@ -16,12 +16,12 @@ class ViewController: UIViewController {
         
         view.addSubview(CSButton(frame: CGRect(x: 30, y: 50, width: 150, height: 30)))
         
-        let rectBtn = CSButton(type: .rect)
-        rectBtn.frame = CGRect(x: 30, y: 200, width: 150, height: 30)
+        let rectBtn = CSButton(type: .rect, frame: CGRect(x: 30, y: 200, width: 150, height: 30))
+//        rectBtn.frame = CGRect(x: 30, y: 200, width: 150, height: 30)
         view.addSubview(rectBtn)
         
-        let circleBtn = CSButton(type: .circle)
-        circleBtn.frame = CGRect(x: 200, y: 200, width: 150, height: 30)
+        let circleBtn = CSButton(type: .circle, frame: CGRect(x: 200, y: 200, width: 150, height: 150))
+//        circleBtn.frame = CGRect(x: 200, y: 200, width: 150, height: 150)
         view.addSubview(circleBtn)
     }
 
